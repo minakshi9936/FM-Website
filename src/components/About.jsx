@@ -65,7 +65,7 @@ export default function About() {
 
             {/* Image */}
             <img
-              src="/src/assets/bg1.jpg" // 🔹 replace with your image
+              src="/bg1.jpg" // 🔹 replace with your image
               alt="About Vishvam Management"
               className="relative rounded-2xl shadow-lg w-full object-cover transform group-hover:scale-105 transition duration-500"
             />

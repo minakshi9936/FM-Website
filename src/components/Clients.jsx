@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 export default function Client() {
   const clients = [
-    "/src/assets/Clients/1.png",
-    "/src/assets/Clients/2.jpg",
-    "/src/assets/Clients/3.png",
-    "/src/assets/Clients/4.png",
-    "/src/assets/Clients/5.jpg",
-    "/src/assets/Clients/6.png",
-    "/src/assets/Clients/7.jpg",
+    "/public/Clients/1.png",
+    "/public/Clients/2.jpg",
+    "/public/Clients/3.png",
+    "/public/Clients/4.png",
+    "/public/Clients/5.jpg",
+    "/public/Clients/6.png",
+    "/Clients/7.jpg",
     "/src/assets/Clients/8.png",
     "/src/assets/Clients/9.jpg",
     "/src/assets/Clients/10.png",

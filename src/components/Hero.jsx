@@ -11,7 +11,7 @@ export default function Hero() {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="/src/assets/logo1.png"
+            src="/logo1.png"
             alt="Company Logo"
             className="w-20 h-14 bg-white p-1 rounded shadow"
           />
