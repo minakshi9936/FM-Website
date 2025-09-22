@@ -90,7 +90,7 @@ export default function Hero() {
           institutions, and industries across India.
         </p>
         <a
-  href="/src/assets/Vishvam Profile.pdf"
+  href="/Vishvam Profile.pdf"
   target="_blank" // opens in new tab
   rel="noopener noreferrer"
   className="bg-white text-orange-600 font-semibold px-6 py-3 rounded-md w-fit shadow-md hover:bg-gray-100 transition"
