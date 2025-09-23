@@ -31,8 +31,6 @@ export default function Footer() {
             </p>
           </div>
 
-         
-
           {/* Company */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-400">
@@ -57,7 +55,7 @@ export default function Footer() {
             </ul>
           </div>
 
-           {/* Services */}
+          {/* Services */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-400">
               Services
@@ -73,66 +71,17 @@ export default function Footer() {
                   Supply
                 </a>
               </li>
-              <li>
-                
-              </li>
+              <li></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom */}
-        <div className="mt-10 border-t border-neutral-800 pt-6 flex flex-col md:flex-row justify-between items-center">
-          {/* Left side */}
-          <p className="text-xs text-neutral-400">
-            © {year} VISHVAMM. All rights reserved.
-          </p>
 
-          {/* Center links */}
-          <div className="flex gap-4 text-xs text-neutral-400 mt-4 md:mt-0">
-            <a href="#" className="hover:text-orange-600">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-orange-600">
-              Terms
-            </a>
-            <a href="#" className="hover:text-orange-600">
-              Cookies
-            </a>
-          </div>
-
-          {/* Right side (social icons) */}
-          <div className="flex gap-3 mt-4 md:mt-0">
-            <a
-              href="#"
-              className="p-2 rounded-md bg-neutral-800 hover:bg-neutral-700"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-md bg-neutral-800 hover:bg-neutral-700"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-md bg-neutral-800 hover:bg-neutral-700"
-            >
-              <FaLinkedinIn />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-md bg-neutral-800 hover:bg-neutral-700"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="#"
-              className="p-2 rounded-md bg-neutral-800 hover:bg-neutral-700"
-            >
-              <FaWhatsapp />
-            </a>
-          </div>
+        {/* Copyright */}
+        <div className="mt-6 text-center text-gray-500 text-sm border-t border-yellow-500/20 pt-4">
+          © {new Date().getFullYear()} Vishvam Management Services Pvt. Ltd. All
+          rights reserved.
         </div>
       </div>
     </footer>
