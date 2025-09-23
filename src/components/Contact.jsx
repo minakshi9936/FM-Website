@@ -65,7 +65,7 @@ export default function Contact() {
               possible.
             </p>
             <a
-              href="https://forms.gle/amcd6iD4dYxfMhTG8"
+              href="https://forms.gle/ReLtUsMF4XFysuUDA"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-8 py-3 bg-orange-400 text-black font-semibold rounded-full shadow-lg hover:bg-yellow-300 transition-all"
