@@ -26,14 +26,14 @@ export default function Services() {
         </h1>
 
         {/* First Row - Grid */}
-        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6 flex-wrap">
+        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-8 flex-wrap">
           {firstRow.map((service, index) => (
             <ServiceCard key={index} service={service} />
           ))}
         </div>
 
         {/* Bottom Row - Centered Flex with arrows */}
-        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6 flex-wrap">
+        <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-8 flex-wrap">
           {bottomRow.map((service, index, arr) => (
             <React.Fragment key={index}>
               <ServiceCard service={service} />
