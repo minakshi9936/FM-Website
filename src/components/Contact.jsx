@@ -20,7 +20,7 @@ export default function Contact() {
         Contact <span className="text-black">Us</span>
         <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-orange-500 rounded"></span>
       </h1>
-          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-black max-w-2xl mx-auto">
             Have questions? We’d love to hear from you. Reach out through any of
             the channels below.
           </p>

@@ -50,7 +50,7 @@ export default function Client() {
         Our <span className="text-black">Clients</span>
          <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-orange-500 rounded"></span>
       </h1>
-      <p className="text-center text-gray-300 max-w-2xl mx-auto mb-16 text-lg">
+      <p className="text-center text-black max-w-2xl mx-auto mb-16 text-lg">
         We are proud to have collaborated with leading brands and companies across industries.
       </p>
 
