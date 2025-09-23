@@ -5,7 +5,7 @@ export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative min-h-screen w-full flex flex-col bg-gradient-to-r from-orange-400 via-orange-300 to-red-100 overflow-hidden">
+    <div id= "hero" className="relative min-h-screen w-full flex flex-col bg-gradient-to-r from-orange-400 via-orange-300 to-red-100 overflow-hidden">
       {/* Navbar */}
       <header className="fixed top-0 w-full flex justify-between items-center px-6 md:px-10 py-4 bg-white/30 backdrop-blur-md shadow-sm z-30">
         {/* Logo */}
@@ -19,7 +19,7 @@ export default function Hero() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8 text-yellow-700 font-medium">
-          <a href="#home" className="hover:text-orange-600 text-lg">
+          <a href="#hero" className="hover:text-orange-600 text-lg">
             Home
           </a>
           <a href="#about" className="hover:text-orange-600 text-lg">
