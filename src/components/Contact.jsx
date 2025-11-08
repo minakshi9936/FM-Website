@@ -45,7 +45,7 @@ export default function Contact() {
 
               <div className="flex items-center space-x-4">
                 <FaPhoneAlt className="text-orange-400 text-2xl" />
-                <p>+91 7972867943, +91 9718354082</p>
+                <p>+91 9561660812</p>
               </div>
 
               <div className="flex items-center space-x-4">
@@ -78,7 +78,7 @@ export default function Contact() {
       </div>
   {/* ✅ WhatsApp Floating Button */}
             <a
-              href="https://wa.me/917972867943"
+              href="https://wa.me/919561660812"
               target="_blank"
               rel="noopener noreferrer"
               className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-[9999]"
